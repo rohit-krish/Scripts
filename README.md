@@ -30,5 +30,5 @@ export PATH="$PATH:<path_to_the_file>"
 ```
 > Execute
 ``` sh
-<filename> 192.168.43.1
+<filename> <your_local_ip>
 ```
