@@ -15,13 +15,20 @@ flutter devices
 
 ```
 > Just create a file
-```sh touch <filename.sh>```
 > Copy the lines to that file
 > Make it executable
-```sh chmod +x <filename>```
 > Add the file to your path
-```sh export PATH="$PATH:<path_to_the_file>"
-```
 > Now execute whenever you want
-> eg:-
-```sh <filename> 192.168.43.1```
+
+
+```sh
+touch <filename.sh>
+```
+```sh
+chmod +x <filename>
+export PATH="$PATH:<path_to_the_file>"
+```
+> Execute
+``` sh
+<filename> 192.168.43.1
+```
