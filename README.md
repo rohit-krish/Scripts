@@ -6,12 +6,19 @@
 
 RED='\033[0;31m'
 NC='\033[0m' # No Color
+sec=5
 
 adb tcpip 5555
-printf "${RED}WAITING TO AGREE PERMISSION...\n${NC}"
-sleep 3
+
+while [ $sec -ge 1 ];do
+    echo -ne "${RED}WAITING TO AGREE PERMISSION ...($sec)\033[0K\r${NC}"
+    let "sec=sec-1"
+    sleep 1
+done
+
 adb connect $1:5555
 flutter devices
+
 
 ```
 > - Just create a file<br>
