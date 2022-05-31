@@ -1,6 +1,6 @@
 # 1. BASH
 ## Script to connect an Android device wirelessly
-#### ie:- I use to connect my physical device for flutter dev.
+#### ie:- I use this script to connect my physical device for flutter dev.
 ```sh
 #! /bin/bash
 
