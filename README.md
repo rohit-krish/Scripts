@@ -14,11 +14,11 @@ adb connect $1:5555
 flutter devices
 
 ```
-> Just create a file<br>
-> Copy the lines to that file<br>
-> Make it executable<br>
-> Add the file to your path<br>
-> Now execute whenever you want<br>
+> - Just create a file<br>
+> - Copy the lines to that file<br>
+> - Make it executable<br>
+> - Add the file to your path<br>
+> - Now execute whenever you want<br>
 
 
 ```sh
