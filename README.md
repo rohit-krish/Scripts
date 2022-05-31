@@ -14,3 +14,14 @@ adb connect $1:5555
 flutter devices
 
 ```
+> Just create a file
+```sh touch <filename.sh>```
+> Copy the lines to that file
+> Make it executable
+```sh chmod +x <filename>```
+> Add the file to your path
+```sh export PATH="$PATH:<path_to_the_file>"
+```
+> Now execute whenever you want
+> eg:-
+```sh <filename> 192.168.43.1```
