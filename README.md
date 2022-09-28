@@ -43,3 +43,18 @@ export PATH="$PATH:<path_to_the_file>"
 ## 2. Script to install grub boot loader if it crashed
 ### first you need to boot into a live linux system
 ### then run the commands into the terminal and shutdown the system remove the mediam used for the live system
+
+```sh
+sudo mount /dev/sda<your linux install drive number> /media
+sudo mount --bind /dev /media/dev
+sudo mount --bind /sys /media/sys
+sudo mount --bind /proc /media/proc
+
+# to boot into the drive
+sudo chroot /media
+
+# install grub
+grub-install /dev/sda
+
+
+```
