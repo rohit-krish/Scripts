@@ -1,5 +1,4 @@
-# 1. BASH
-## Script to connect an Android device wirelessly
+## 1. Script to connect an Android device wirelessly
 #### ie:- I use this script to connect my physical device for flutter dev.
 ```sh
 #! /bin/bash
@@ -41,3 +40,6 @@ export PATH="$PATH:<path_to_the_file>"
 ``` sh
 <filename> <your_local_ip>
 ```
+## 2. Script to install grub boot loader if it crashed
+### first you need to boot into a live linux system
+### then run the commands into the terminal and shutdown the system remove the mediam used for the live system
