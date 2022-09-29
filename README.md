@@ -99,3 +99,4 @@ sudo echo $text > /etc/vsftpd.conf
 # start the service
 sudo systemctl restart vsftpd.service
 ```
+(Checkout the playlist more more info)[https://www.youtube.com/playlist?list=PLeiTQKKRIIRoKMuCrsb80Rx2E1F2g6RbT]
