@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # Install VSFTPD SERVER
 sudo apt install vsftpd
 sudo service vsftpd status
