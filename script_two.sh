@@ -1,3 +1,5 @@
+#! /bin/bash
+
 sudo mount /dev/sda<your linux install drive number> /media
 sudo mount --bind /dev /media/dev
 sudo mount --bind /sys /media/sys
