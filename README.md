@@ -103,7 +103,7 @@ sudo systemctl restart vsftpd.service
 [Checkout the playlist more more info](https://www.youtube.com/playlist?list=PLeiTQKKRIIRoKMuCrsb80Rx2E1F2g6RbT)
 <br>
 
-## 3. Script to create a flutter project with some boiler plate setup
+## 4. Script to create a flutter project with some boiler plate setup
 
 ```sh
 RED='\e[0;1;31m'
