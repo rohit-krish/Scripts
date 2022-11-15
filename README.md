@@ -150,10 +150,10 @@ sudo adduser <user>
 sudo usermod -aG sudo <user>
 ```
 edit the following file and change<br>
-PasswordAuthentication no -> PasswordAuthentication yes
 ```sh
 /etc/ssh/sshd_config
 ```
+PasswordAuthentication no -> PasswordAuthentication yes
 then,
 ```sh
 sudo systemctl reload sshd
