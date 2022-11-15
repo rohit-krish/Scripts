@@ -141,3 +141,20 @@ fi
 
 ```
 <br>
+
+## 5. AWS: Add a User and Enable Password Login
+
+```sh
+# creating a user
+sudo adduser <user>
+sudo usermod -aG sudo <user>
+```
+edit the following file and change<br>
+PasswordAuthentication no -> PasswordAuthentication yes
+```sh
+/etc/ssh/sshd_config
+```
+then,
+```sh
+sudo systemctl reload sshd
+```
