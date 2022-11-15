@@ -153,7 +153,7 @@ edit the following file and change<br>
 ```sh
 /etc/ssh/sshd_config
 ```
-PasswordAuthentication no -> PasswordAuthentication yes
+PasswordAuthentication no -> PasswordAuthentication yes<br>
 then,
 ```sh
 sudo systemctl reload sshd
